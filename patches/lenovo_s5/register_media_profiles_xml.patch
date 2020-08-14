@@ -1,0 +1,14 @@
+diff --git a/target/product/treble_common.mk b/target/product/treble_common.mk
+old mode 100644
+new mode 100755
+index 13b7769f8..2a7b32773
+--- a/target/product/treble_common.mk
++++ b/target/product/treble_common.mk
+@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
+     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
+     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:system/etc/audio_policy_volumes.xml \
+     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:system/etc/default_volume_tables.xml \
++    frameworks/av/services/audiopolicy/config/media_profiles.xml:system/etc/media_profiles.xml \
+ 
+ # Bluetooth:
+ #   audio.a2dp.default is a system module. Generic system image includes
