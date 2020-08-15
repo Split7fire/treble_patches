@@ -1,7 +1,15 @@
+From a3a552ed215d64dd1d64b15ecd31f24b0d11b257 Mon Sep 17 00:00:00 2001
+From: Split7fire <split7fire@yandex.ru>
+Date: Sat, 15 Aug 2020 10:48:05 +0700
+Subject: [PATCH] Register media_profiles.xml
+
+Change-Id: If5470d2d065843c2f1b0a7a5d8ddb9e7a331ccec
+---
+ target/product/treble_common.mk | 1 +
+ 1 file changed, 1 insertion(+)
+
 diff --git a/target/product/treble_common.mk b/target/product/treble_common.mk
-old mode 100644
-new mode 100755
-index 13b7769f8..2a7b32773
+index 13b7769f8..2a7b32773 100644
 --- a/target/product/treble_common.mk
 +++ b/target/product/treble_common.mk
 @@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
@@ -12,3 +20,6 @@ index 13b7769f8..2a7b32773
  
  # Bluetooth:
  #   audio.a2dp.default is a system module. Generic system image includes
+-- 
+2.17.1
+

@@ -1,3 +1,14 @@
+From 876fd825d4a1895177268f8410a0d3bebeb2c417 Mon Sep 17 00:00:00 2001
+From: Split7fire <split7fire@yandex.ru>
+Date: Sat, 15 Aug 2020 10:51:04 +0700
+Subject: [PATCH] Added media_profiles.xml
+
+Change-Id: I9aabb75e50cb88fc7b0ed09718f8981344fd7736
+---
+ .../audiopolicy/config/media_profiles.xml     | 796 ++++++++++++++++++
+ 1 file changed, 796 insertions(+)
+ create mode 100644 services/audiopolicy/config/media_profiles.xml
+
 diff --git a/services/audiopolicy/config/media_profiles.xml b/services/audiopolicy/config/media_profiles.xml
 new file mode 100644
 index 000000000..7890320d0
@@ -800,3 +811,6 @@ index 000000000..7890320d0
 +    -->
 +    <ExportVideoProfile name="m4v" profile= "1" level="128"/>
 +</MediaSettings>
+-- 
+2.17.1
+
