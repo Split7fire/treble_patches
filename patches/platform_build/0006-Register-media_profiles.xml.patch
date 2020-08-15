@@ -5,13 +5,13 @@ Subject: [PATCH] Register media_profiles.xml
 
 Change-Id: If5470d2d065843c2f1b0a7a5d8ddb9e7a331ccec
 ---
- build/make/target/product/treble_common.mk | 1 +
+ make/target/product/treble_common.mk | 1 +
  1 file changed, 1 insertion(+)
 
-diff --git a/build/make/target/product/treble_common.mk b/build/make/target/product/treble_common.mk
+diff --git a/make/target/product/treble_common.mk b/make/target/product/treble_common.mk
 index 13b7769f8..2a7b32773 100644
---- a/build/make/target/product/treble_common.mk
-+++ b/build/make/target/product/treble_common.mk
+--- a/make/target/product/treble_common.mk
++++ b/make/target/product/treble_common.mk
 @@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
      frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
      frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:system/etc/audio_policy_volumes.xml \

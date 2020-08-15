@@ -4,13 +4,13 @@ Date: Sat, 15 Aug 2020 10:28:05 +0700
 Subject: [PATCH] Decoration: Change device name to Lenovo S5
 
 ---
- device/phh/treble/generate.sh | 2 +-
+ phh/treble/generate.sh | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/device/phh/treble/generate.sh b/device/phh/treble/generate.sh
+diff --git a/phh/treble/generate.sh b/phh/treble/generate.sh
 index c347141..4f5330a 100644
---- a/device/phh/treble/generate.sh
-+++ b/device/phh/treble/generate.sh
+--- a/phh/treble/generate.sh
++++ b/phh/treble/generate.sh
 @@ -74,7 +74,7 @@ $rom_script
  PRODUCT_NAME := $target
  PRODUCT_DEVICE := phhgsi_${arch}_$part
