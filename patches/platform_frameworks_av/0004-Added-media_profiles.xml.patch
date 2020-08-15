@@ -5,15 +5,15 @@ Subject: [PATCH] Added media_profiles.xml
 
 Change-Id: I9aabb75e50cb88fc7b0ed09718f8981344fd7736
 ---
- .../audiopolicy/config/media_profiles.xml     | 796 ++++++++++++++++++
+ .../frameworks/av/services/audiopolicy/config/media_profiles.xml     | 796 ++++++++++++++++++
  1 file changed, 796 insertions(+)
  create mode 100644 services/audiopolicy/config/media_profiles.xml
 
-diff --git a/services/audiopolicy/config/media_profiles.xml b/services/audiopolicy/config/media_profiles.xml
+diff --git a/frameworks/av/services/audiopolicy/config/media_profiles.xml b/frameworks/av/services/audiopolicy/config/media_profiles.xml
 new file mode 100644
 index 000000000..7890320d0
 --- /dev/null
-+++ b/services/audiopolicy/config/media_profiles.xml
++++ b/frameworks/av/services/audiopolicy/config/media_profiles.xml
 @@ -0,0 +1,796 @@
 +<?xml version="1.0" encoding="utf-8"?>
 +<!-- Copyright (C) 2013 The Android Open Source Project
